@@ -1,0 +1,58 @@
+.Top-boarder {
+  height: 10px;
+  width: 100%;
+}
+
+.line {
+  background-color: black;
+  height: 8px;
+  width: 80px;
+}
+
+.longLine {
+  background-color: white;
+  height: 8px;
+  width: 120px;
+}
+
+.topLogo {
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+}
+
+.NavBar {
+  white-space: nowrap;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+}
+
+.break {
+  margin-right: 30%;
+}
+
+.NavItem {
+  margin-top: 2rem;
+  margin-left: 20px;
+  margin-right: 40px;
+}
+
+.verticleLine {
+  margin-left: 120px;
+  background-color: black;
+  min-width: 8px;
+  height: 72px;
+}
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  /* justify-content: center; */
+}

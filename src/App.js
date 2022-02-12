@@ -1,35 +1,46 @@
 import "./App.css";
-import react from "react";
+import NavBar from "./components/NavBar";
 import Cortado from "./Cortado.png";
+import GetCoffee from "./components/getCoffee";
 
 function App() {
   return (
     <div className="App">
-      <div className="Top-boarder"></div>
-      <div className="thing">
-        <div className="longLine"></div>
-        <div className="line"></div>
-      </div>
-      <div className="App-header">
-        <div className="verticleLine"></div>
-        <div className="column">
-          <div>COFFEE</div>
-          <div>CORNER</div>
+      <NavBar />
+
+      <GetCoffee></GetCoffee>
+
+      <div className="greyBox">
+        <div className="rowStatement">
+          <div className="statement">
+            <div className="coolBox">
+              <div className="affordableLogo"></div>
+            </div>
+            <div className="statementText">AFFORDABLE</div>
+            <div className="aboutText">
+              Our loyalty and prepayment schemes make ours the most affordable
+              high-end coffee going
+            </div>
+          </div>
+          <div className="statement">
+            <div className="coolBox"></div>
+            <div className="statementText">BULLETPROOF</div>
+            <div className="aboutText">
+              Bulletproof We sell a range of supercharged speciality coffees.
+              They'll get you through even the toughest day' work!
+            </div>
+          </div>
+          <div className="statement">
+            <div className="coolBox"></div>
+            <div className="statementText">ETHICALLY SOURCED</div>
+            <div className="aboutText">
+              Ethically sourced We trade fairly with our suppliers, and invest
+              in carbon offsetting.
+            </div>
+          </div>
         </div>
-        <div className="break"></div>
-        <div className="NavBar">
-          <div className="NavItem">MENU</div>
-          <div className="NavItem">LOCATIONS</div>
-          <div className="NavItem">ABOUT US</div>
-        </div>
       </div>
-      <div className="row">
-        <div className="column">
-          <div className="bigText">Caffeinate your day.</div>
-          <div className="bigText">Sustainibly sourced. Sustainibly priced</div>
-        </div>
-        <img src={Cortado} alt="Coffee" />;
-      </div>
+      <div className="bottom-border"></div>
     </div>
   );
 }

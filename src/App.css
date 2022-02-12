@@ -1,72 +1,7 @@
 .App {
   font-weight: bold;
-}
-
-.Top-boarder {
-  height: 10px;
-  width: 100%;
-}
-
-.line {
-  background-color: black;
-  height: 10px;
-  width: 80px;
-}
-
-.NavBar {
-  white-space: nowrap;
-  margin-left: 50px;
-  margin-right: 50px;
-  display: flex;
-  flex-direction: row;
-  align-items: left;
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
-  align-items: left;
-}
-.NavItem {
-  margin-top: 2rem;
-  margin-left: 20px;
-  margin-right: 40px;
-}
-
-.longLine {
-  background-color: white;
-  height: 8px;
-  width: 100px;
-}
-
-.verticleLine {
-  margin-left: 100px;
-  background-color: black;
-  min-width: 8px;
-  height: 72px;
-}
-
-.thing {
-  display: flex;
-  flex-direction: row;
-  align-items: right;
-}
-
-.column {
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  margin-left: 15px;
-  margin-top: 6px;
-}
-
-.bigText {
-  font-size: 60px;
-  margin-top: 50px;
-  margin-left: 200px;
-}
-.break {
-  margin-right: 30%;
+  font-size: 27px;
+  color: rgb(0, 0, 0);
 }
 
 .App-header {
@@ -77,6 +12,69 @@
   flex-direction: row;
   align-items: left;
   /* justify-content: center; */
-  font-size: calc(27px);
+  font-size: 27px;
   color: rgb(0, 0, 0);
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-left: 15px;
+  margin-top: 6px;
+}
+
+/* Above */
+
+.greyBox {
+  height: 496px;
+  width: 90%;
+  margin-left: 10%;
+  background-color: #acacac;
+}
+
+.aboutText {
+  font-size: 20px;
+}
+
+.rowStatement {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  width: 1500px;
+}
+
+.statementText {
+  font-size: 34px;
+}
+
+.coolBox {
+  height: 82px;
+  width: 82px;
+  border: 2px solid #ffffff;
+  margin: 0 0 40px 0;
+}
+
+.statement {
+  flex-direction: column;
+  align-items: left;
+  margin-left: 100px;
+  margin-top: 110px;
+  width: 400px;
+  margin-right: 0px;
+}
+
+.affordableLogo {
+}
+
+/* below */
+.bottom-border {
+  height: 10px;
+  width: 100%;
 }
