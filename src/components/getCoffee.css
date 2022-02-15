@@ -1,14 +1,16 @@
 .bigText {
-  font-size: 60px;
+  font-size: 64px;
   margin-top: 50px;
-  margin-left: 200px;
+  margin-left: 15vw;
+  padding-right: 5vw;
+  max-width: 300px;
 }
 
 .Pretty-Button {
   height: 60px;
   width: 183px;
   margin-top: 50px;
-  margin-left: 200px;
+  margin-left: 20vw;
   background-color: #ffffff;
   border-radius: 0px;
   border-width: 4px;
@@ -17,6 +19,14 @@
   font-weight: bold;
 }
 
+.columnGetCoffee {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
 .Cortado {
   margin-bottom: -80px;
+  margin-left: 5vw;
+  margin-right: 15vw;
 }

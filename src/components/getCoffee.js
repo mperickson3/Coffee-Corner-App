@@ -17,9 +17,11 @@ function getCoffee() {
   return (
     <div>
       <div className="row">
-        <div className="column">
-          <div className="bigText">Caffeinate your day.</div>
-          <div className="bigText">Sustainibly sourced. Sustainibly priced</div>
+        <div className="columnGetCoffee">
+          <div className="bigText">{"Caffeinate  your day"}.</div>
+          <div className="bigText">
+            Sustainibly sourced. Sustainibly priced.
+          </div>
 
           <button
             className="Pretty-Button"
