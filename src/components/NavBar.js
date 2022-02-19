@@ -7,8 +7,6 @@ function NavBar() {
   const [lineWidth, setLineWidth] = useState(0);
   const [lineHeight, setLineHeight] = useState(0);
 
-  const navLineWidth1 = 0;
-
   useEffect(() => {
     setLineWidth(80);
     setLineHeight(74);
