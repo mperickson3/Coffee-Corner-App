@@ -3,7 +3,7 @@ import "./getCoffee.css";
 
 import Cortado from "../Cortado.png";
 
-import "./NavBar.css";
+import "./NavBar/NavBar.css";
 //import react from "react";
 function hoverIn(event) {
   event.target.style.background = "#eeebeb";

@@ -1,0 +1,87 @@
+.Top-boarder {
+  height: 10px;
+  width: 100%;
+}
+
+.line {
+  background-color: black;
+  height: 8px;
+  width: 0px;
+  transition: 1s ease-out;
+}
+
+.longLine {
+  background-color: white;
+  height: 8px;
+  width: 8%;
+}
+
+.topLogo {
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+}
+
+.NavBar {
+  white-space: nowrap;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: row;
+  float: right;
+  margin-right: 10%;
+}
+
+.break {
+  margin-right: 28vw;
+}
+
+.NavItem {
+  margin-top: 2rem;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  background-color: white;
+  /* border-left: 3px solid black; */
+  /* border-top: 3px solid black; */
+}
+
+.leftBorder {
+  border-left: 3px solid black;
+  position: absolute;
+  margin-right: 3px;
+  height: 0px;
+  transition: 0.5s ease-out;
+}
+
+.navBarText {
+  padding-left: 7px;
+  padding-top: 2px;
+  cursor: pointer;
+}
+
+.topBorder {
+  border-top: 3px solid black;
+  position: absolute;
+  margin-right: 3px;
+  width: 0px;
+  transition: 0.5s ease;
+}
+
+.verticleLine {
+  margin-left: 8%;
+  margin-top: -5px;
+  background-color: black;
+  min-width: 8px;
+  height: 0px;
+  transition: 1s ease-out;
+}
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  border-bottom: 2px;
+  /* justify-content: center; */
+}

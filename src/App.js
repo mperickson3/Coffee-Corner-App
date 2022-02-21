@@ -1,7 +1,7 @@
 import "./App.css";
-import NavBar from "./components/NavBar";
+import NavBar from "./components/NavBar/NavBar";
 import GetCoffee from "./components/getCoffee";
-import AboutOurCoffee from "./components/aboutOurCoffee";
+import AboutOurCoffee from "./components/AboutOurCoffee/aboutOurCoffee";
 
 function App() {
   return (
