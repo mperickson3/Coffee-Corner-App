@@ -1,0 +1,40 @@
+.eyeL {
+  width: 15px;
+  height: 15px;
+  background-color: white;
+
+  transform: translate(20px, 15px);
+}
+
+.eyeR {
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  transform: translate(50px, 0px);
+}
+
+.smileUnder {
+  position: absolute;
+  width: 50px;
+  height: 25px;
+  border-radius: 100%;
+  display: block;
+  background-color: white;
+  /* border-top: 30px; */
+  border-color: #acacac;
+  border-style: solid;
+  transform: translate(14px, 6px);
+}
+
+.smileOver {
+  position: absolute;
+  width: 50px;
+  height: 10px;
+  border-radius: 100%;
+  display: block;
+  background-color: #acacac;
+  /* border-top: 30px; */
+  border-color: #acacac;
+  border-style: solid;
+  transform: translate(14px, 6px);
+}

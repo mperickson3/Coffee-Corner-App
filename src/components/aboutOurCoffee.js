@@ -22,6 +22,7 @@ function AboutOurCoffee() {
             statementTitle="ETHICALLY SOURCED"
           />
         </div>
+        <div className="aboutUs">ABOUT OUR COFFEE</div>
       </div>
     </div>
   );
