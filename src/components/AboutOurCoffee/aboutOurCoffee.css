@@ -1,6 +1,7 @@
 .greyBox {
   height: 496px;
   width: 90%;
+  right: 0;
   margin-left: 10%;
   background-color: #acacac;
   color: white;
