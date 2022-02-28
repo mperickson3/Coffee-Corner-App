@@ -1,0 +1,18 @@
+.bottom-border {
+  height: 200px;
+  width: 100%;
+  background-color: black;
+  padding-top: 5px;
+  margin: 30px 0 0 0;
+}
+
+.contactUs {
+  color: white;
+  margin: 20px 5px 15px 10px;
+  font-weight: normal;
+  font-size: 45px;
+}
+
+.logos {
+  margin: 5px 10px 0 10px;
+}
