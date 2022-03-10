@@ -4,6 +4,7 @@ import GetCoffee from "./components/getCoffee";
 import AboutOurCoffee from "./components/AboutOurCoffee/aboutOurCoffee";
 import Newsletter from "./components/Newsletter/newsletter";
 import ContactUs from "./components/ContactUs/contactUs";
+import Menu from "./components/Menu/menu";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <GetCoffee></GetCoffee>
       <AboutOurCoffee />
       <Newsletter />
+      <Menu />
       <ContactUs />
     </div>
   );
