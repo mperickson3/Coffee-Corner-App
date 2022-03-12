@@ -5,6 +5,7 @@ import AboutOurCoffee from "./components/AboutOurCoffee/aboutOurCoffee";
 import Newsletter from "./components/Newsletter/newsletter";
 import ContactUs from "./components/ContactUs/contactUs";
 import Menu from "./components/Menu/menu";
+import Find from "./components/Find/Find";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <AboutOurCoffee />
       <Newsletter />
       <Menu />
+      <Find />
       <ContactUs />
     </div>
   );
